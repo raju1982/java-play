@@ -1,0 +1,41 @@
+Coding -
+throw new IllegalArgumentException
+use Math.Min(,) & Math.Max(,)
+first solve the easiest scenarios -> write scenarios in front of interviewer
+convert time into number
+always write boilerplate code
+write testNG test of your own code
+
+Object -
+for object toString implementation
+comparable -> lamda
+equals  and hashcode
+@Override
+
+//equal,hashcode and sort of different collections
+//like Array, hashmap, set, Arraylist
+
+oops (overriding, overloading, superclass, subclass) -
+thread -
+lambda (functional programing) - comparator
+generics -
+garbage collections -
+reflection -
+recursion -
+regex -
+error - throw, throws, try, catch finally , checked unchecked exception
+annotation
+exception handling
+static block
+intisazation block
+static v/s instance
+
+OOPS -
+https://discuss.leetcode.com/tags/5/object-oriented%20design?page=1
+
+//java mocking framework :=
+mockito, hamcrest
+http://www.vogella.com/tutorials/Mockito/article.html
+http://www.vogella.com/tutorials/Hamcrest/article.html
+
+

@@ -1,0 +1,21 @@
+String Questions -
+//covert to lowercase and remove white spaces
+char[] word1 = firstWord.toLowerCase().replaceAll("[\\s]", "").toCharArray();
+"rakesh".compareTo("kandpal");
+a.charAt(0)>b.charAt(0)?"YES":"NO";
+palindrome
+reverse - recursion or use StringBuilder (not thread safe)
+StringBuilder - append, insert with offset
+StringBuffer - thread safe StringBuilder
+String R = new StringBuilder(A).reverse().toString();
+
+
+
+String -
+https://www.hackerrank.com/domains/java/java-strings [java-anagrams]
+http://javarevisited.blogspot.com/2015/06/2-ways-to-check-if-string-is-palindrome-java.html
+https://www.careercup.com/page?pid=replacing-multiple-string-occurences-from-a-text-interview-questions
+https://www.careercup.com/page?pid=string-manipulation-interview-questions
+http://practice.geeksforgeeks.org/topics/String/
+https://leetcode.com/problemset/all/?tagSlugs=string
+

@@ -1,0 +1,139 @@
+https://www.glassdoor.com/Interview/senior-software-test-engineer-interview-questions-SRCH_KO0,29_SDRD_IP2.htm
+https://www.glassdoor.com/Interview/us-software-test-engineer-interview-questions-SRCH_IL.0,2_IN1_KO3,25_SDRD.htm
+https://www.glassdoor.com/Interview/software-engineer-in-test-ii-interview-questions-SRCH_KO0,28_SDRD.htm
+
+https://www.careercup.com/video
+https://www.careercup.com/
+https://www.careercup.com/page?pid=java-interview-questions
+https://www.careercup.com/page?pid=quality-assurance-interview-questions
+
+https://www.hackerrank.com/dashboard
+
+
+
+
+
+
+
+GlassDoor -
+
+
+Testing theory -
+Questions on storage concepts, technology and testing methodologies
+Create 20 test cases for a 2-digit field with a submit button.
+What is contained in defect, test case, test plans, in detail and why? How do you write each document and what is there purpose?
+Random questions about QA and CI knowledge
+What would your testing strategy be
+Pros and cons of Agile and Waterfall methodology?
+Simple questions-- about what I did and what SW that I used.
+Pros and cons of automation? Tool sets used, pros and cons?
+Explain automation framework
+About my years of experience and the different roles I have played and projects I had worked on.?
+They asked me how I would use existing data to build new features.
+Presented with scenarios, and ask to offer solutions. Mostly interested in your approach, not the solution.
+How would you test a cofee mug?
+Come up with a set of test cases to test server side functionalities based on drawn diagram on white board
+http://www.geekinterview.com/question_details/90742
+
+
+
+UI testing questions -
+Using a programming language of your choice, write a program to find broken images in a page using Selenium Web Driver.
+What's the reason behind bellow given Selenium WebDriver exception and how will you resolve It? "Exception in thread "main" org.openqa.selenium.NoSuchElementException: Unable to locate element"
+A dynamically changing html page contains the following contents, how to locate the input field for the 2nd line item? Question 5 2x 2x
+Diff b/w Abstract & Interface Selenium
+Page Object Model
+Selenium limitation
+Diff b/w close and quit 4. how to select frames 5. Implicit and Explicit wait 6. Ask about your real time work in selenium
+locators
+
+
+Coding-
+
+String-
+Find Anagram
+Find the odd number in a list of ints that is repeated the highest number of times.
+Find the most amount of palindromes in a given string.
+
+Given an array of ints, write an algorithm that tells how many times some ints were repeated in the array.
+
+
+Write a method that lists all files in a directory as well as its sub-directories. Assume you already have a method that can list everything in one directory and another method that tells you whether a path is a directory or a file.
+Please code 9/9 sudoku
+Given a Bank class java code, list all the test cases you would come up with.
+Given a tree, decide if it's a binary tree.
+Given a tree node and integer number, write a method that returns true/false if any path from that node sums up to that number.
+Given a matrix of 0 and 1, return a set of connected unions of 1s.
+More code on recursion, Stack, Queue
+code on board for a Binary Search Tree problem.
+Algorithms and testing questions. For example: reverse a string (using multiple methods).
+Data structures & algorithms, test framework and tools
+The answer given was a possible solution. The answer the interviewer wanted involved Reflection.
+Implement a semaphore using a mutex  https://www.careercup.com/question?id=1892664
+Implement Circular Queue. Few other questions related to automation testing and performance testing were asked.
+The CEO asks you to find unique phone numbers from among a list of files. When Do you think you can deliver? What tools do you use?
+How do you traverse a tree and produce a list of descending order
+Java and OOPs questions. static-non-static in java, Stack and heap,
+Extract a particular node value (if present) given a certain dynamic XML Node Structure. This Node value has a specific value format.
+Polymorphism
+Diff b/w throw & throws 3. catch & finally 4. Can exception be caught without catch block
+How to implement LRU cache.
+
+
+
+SQL -
+Write a SQL query to find the nth largest element in a column and include in this result that element's characteristics from table B.
+have you dealt with testing on huge databases ,how comfortable are you using SQL queries for these
+
+
+
+iOS question -
+The iOS engineer asked me about where to specify the build number of an iOS or OS X build, and since it had been many years, I got the answer wrong, though I was close.
+
+
+Generic Question-
+What are you looking for in your next career
+Tell me about a time when you had to go along with a company decision even when you didn't agree with it
+Provide an example of a process you created using collaborative efforts
+Tell me about a time where you were faced with push back from a team member and/or needed to have a difficult conversation with them. Tell me how you would earn trust coming into a very small and close knit team.
+Why do you feel you are qualified for this position
+Where do you see yourself in 5 years
+Each person asked different questions...mainly personal, and very simple "what are you strengths/weaknesses" type of questions.
+Tell me three things that you are most proud of accomplishing in your last role?
+How have you handled a difficult employee?
+Tell me about a time that you had a conflict with someone on your team and how did you handle that?
+what is your goal
+What is your passion?
+What would be your ideal job?
+Why are you interested in Slack?
+Tell me about your favorite project.
+If you and a teammate had opposing ideas, what would you do to reconcile them?
+Tell me about a situation when your code failed and what did you do to code it right?
+Tell me how a coworker will describe you in three words?
+Why did I leave my last job.
+
+
+
+
+
+
+
+
+
+He should also use action verbs such as implemented, designed, programmed, monitored, administered, and architected to describe his contributions.
+These should describe specific actions, such as “designed database schema for Oracle 11g database and programmed database connectivity using Java threads and JDBC.”
+When possible, he should quantify his tasks and describe the results of his work.
+Always put the most compelling reason for you to be considered for a job first, at the top of the résumé.
+Interviewers start reading résumés from the top, so you want to put your best, most relevant stuff first, where it can convince the interviewer to read the rest of the résumé.
+
+
+
+NDA Helpful Notes:
+Go though data structures, algorithms and collections.
+The technical interviews will mainly focus on testing strategies and coding skills.
+You might be asked to write up test cases for multiple services.
+Be sure to cover all negative cases, edge cases, happy path scenarios and dependencies.
+It will help if you practice enumerating test cases for websites, algorithms and functions.
+For coding questions, I think they are looking to see if you come up with the strategy. They might ask you to implement the solution in a different way. If you can give them a fair idea about your analysis on how to address the solution, I think that should be sufficient.
+Be prepared for database queries. Joins and normalization in specific.
+Apart from that, you can expect process related questions related to bug tracking, metrics, CI/CD, release management etc. Automation and REST services questions were also part of the mix (If you work with technologies like Selenium, they will ask you specific questions related to it).

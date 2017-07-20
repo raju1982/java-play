@@ -1,0 +1,46 @@
+https://google.github.io/android-testing-support-library/docs/espresso/setup/index.html
+https://google.github.io/android-testing-support-library/samples/index.html
+https://google.github.io/android-testing-support-library/downloads/index.html
+
+Setup your Emulator -
+
+Go to the settings menu, and scroll down to "About phone." Tap it.
+Scroll down to the bottom again, where you see "Build number." (Your build number may vary from ours here.)
+Tap it seven (7) times. -> Developer options will be enabled.
+On your device, under Settings->Developer options disable the following 3 settings:
+	Window animation scale
+	Transition animation scale
+	Animator duration scale
+
+Update Gradle File -
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22"
+
+    defaultConfig {
+        applicationId "com.my.awesome.app"
+        minSdkVersion 10
+        targetSdkVersion 22.0.1
+        versionCode 1
+        versionName “1.0"
+	  //Set the instrumentation runner
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+}
+dependencies {
+    // App's dependencies, including test
+    compile 'com.android.support:support-annotations:22.2.0'
+    // Testing-only dependencies (This will download Espresso)
+    androidTestCompile 'com.android.support.test:runner:0.5'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+}
+
+
+
+Code coverage
+Automated execution of test
+Jenkins job to execute test
+Mock
