@@ -137,3 +137,8 @@ It will help if you practice enumerating test cases for websites, algorithms and
 For coding questions, I think they are looking to see if you come up with the strategy. They might ask you to implement the solution in a different way. If you can give them a fair idea about your analysis on how to address the solution, I think that should be sufficient.
 Be prepared for database queries. Joins and normalization in specific.
 Apart from that, you can expect process related questions related to bug tracking, metrics, CI/CD, release management etc. Automation and REST services questions were also part of the mix (If you work with technologies like Selenium, they will ask you specific questions related to it).
+
+
+
+
+https://github.com/mission-peace/interview/tree/master/src/com/interview

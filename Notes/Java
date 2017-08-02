@@ -11,6 +11,13 @@ for object toString implementation
 comparable -> lamda
 equals  and hashcode
 @Override
+toString
+
+public class Node<T extends Comparable> {
+//if calling data is smaller than the input param -1 will return
+(one.getData().compareTo(one.getNextNode().getData())
+
+
 
 //equal,hashcode and sort of different collections
 //like Array, hashmap, set, Arraylist
@@ -27,8 +34,11 @@ error - throw, throws, try, catch finally , checked unchecked exception
 annotation
 exception handling
 static block
-intisazation block
+initialization block  static v/s normal
 static v/s instance
+inner class
+final class
+
 
 OOPS -
 https://discuss.leetcode.com/tags/5/object-oriented%20design?page=1
