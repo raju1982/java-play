@@ -17,7 +17,7 @@ public class Node<T extends Comparable> {
 //if calling data is smaller than the input param -1 will return
 (one.getData().compareTo(one.getNextNode().getData())
 
-comparator
+
 
 //equal,hashcode and sort of different collections
 //like Array, hashmap, set, Arraylist
@@ -38,6 +38,10 @@ initialization block  static v/s normal
 static v/s instance
 inner class
 final class
+comparator
+volatile
+StringBuilder, StringBuffer
+regular expression
 
 
 OOPS -
