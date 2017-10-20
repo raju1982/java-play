@@ -4,7 +4,7 @@ package oops;
  * Created by rkandpal on 9/15/17.
  */
 public abstract class Apartment {
-    int date;
+    private int date;
 
     int salePrice(){
         return 10;

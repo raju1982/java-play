@@ -5,9 +5,20 @@ package oops;
  */
 public class Vehicle {
 
+//variable
+    protected String name;
+
+//constructor
+    Vehicle(String name){
+        System.out.println("Vehicle + name");
+        this.name = name;
+    }
 
 
-
+//method
+    public void promote(){
+        System.out.println("Vehicle + promote");
+    }
 }
 
 

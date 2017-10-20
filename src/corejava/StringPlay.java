@@ -1,5 +1,6 @@
 package corejava;
 
+import java.util.Arrays;
 /**
  * Created by rkandpal on 9/14/17.
  */
@@ -65,6 +66,9 @@ public class StringPlay {
         ironMan.substring(1, ironMan.length());
         ironMan.append(" fly fast");
         System.out.println(ironMan);
+
+        //Tokenizing means splitting a string into several sub strings based on delimiters.
+        System.out.println(Arrays.toString(master.split(" ")));
     }
 
 }
