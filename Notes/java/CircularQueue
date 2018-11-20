@@ -1,0 +1,13 @@
+enqueue ->
+tailIndex = (tailIndex + 1) % elements.length;
+
+deqeue ->
+headIndex = (headIndex + 1) % elements.length;
+
+isFUll ->
+int nextIndex = (tailIndex + 1) % elements.length;
+return nextIndex == headIndex;
+
+isEmpty ->
+headIndex == SPECIAL_EMPTY_VALUE;
+return headIndex == SPECIAL_EMPTY_VALUE;

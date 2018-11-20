@@ -1,0 +1,51 @@
+Like the robots of Asimov, all recursive algorithms must obey three important laws:
+
+A recursive algorithm must have a base case. [A base case is typically a problem that is small enough to solve directly.]
+A recursive algorithm must change its state and move toward the base case.
+A recursive algorithm must call itself, recursively.
+
+3.top down :- memoization
+4.bottom up :- dynamic programing
+
+using recursion we can solve drawimage problem.
+
+
+=============
+
+dynamic programing (when we want to store the previous solution result.) -
+1. fibonnaci
+2. stairclimbMemoCounter
+3. MinCoinCHange
+
+
+=============
+
+
+Backtracking is a methodical way of trying out various sequences of decisions, until you find one that “works”
+Suppose you have to make a series of decisions, among various choices, where
+1 . You don’t have enough information to know what to choose
+2.  Each decision leads to a new set of choices
+3.  Some sequence of choices (possibly more than one) may be a solution to your problem
+
+Flow -
+Pick a starting point.
+while(Problem is not solved)
+	For each path from the starting point.
+		check if selected path is safe, if yes select it and make recursive call to rest of the problem
+		If recursive calls returns true, then return true.
+		else undo the current move and return false.
+	End For
+	If none of the move works out, return false, NO SOLUTON.
+
+=============
+
+
+https://github.com/mission-peace/interview/tree/master/src/com/interview
+https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr
+http://interactivepython.org/runestone/static/pythonds/index.html
+
+
+http://algorithms.tutorialhorizon.com/category/backtracking/
+https://www.youtube.com/playlist?list=PL2_aWCzGMAwLPEZrZIcNEq9ukGWPfLT4A
+https://www.youtube.com/user/mycodeschool/videos?flow=grid&view=0&sort=dd
+https://www.youtube.com/user/tusharroy2525/videos?sort=dd&view=0&flow=grid

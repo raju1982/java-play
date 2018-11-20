@@ -1,0 +1,71 @@
+ArrayList is implementation using dynamic array  [insert data once and read it] [read data a lot]
+LinkedList is implementation using Linklist    [lot of delete and update]
+HashMap is implementation using hashTable   [key-value] [key is used to get hash] [key needs to be unique]
+HashSet is a specific type using hashmap [no duplicate allowed]
+Stack is implementation using dynamic array
+queue is implementation using dynamic array
+queue is an interface implemented by LinkedList and priority queue.
+priority queue is implementation using dynamic array
+
+
+
+
+
+Array to List conversion -
+
+//primitive array are not supported.
+//List<Integer> bro = new ArrayList<Integer>(Arrays.asList(array_one));
+//System.out.println(bro);
+
+
+//Arrays.toString()
+//Arrays.sort(array_one,  <comparator>);
+//Arrays.asList(array_one); avoid addition and removal of data is not allowed.
+
+
+//List<Integer> list_One = IntStream.of(number).boxed().collect(Collectors.toList());
+//List<Integer> list = Arrays.stream(number).boxed().collect(Collectors.toList());
+
+
+
+//HashMap -
+        for(int key: bank.keySet()){
+            System.out.println(bank.get(key));
+        }
+
+        System.out.println(bank.containsKey(1));
+        System.out.println(bank.containsValue("two"));
+
+        for(Map.Entry<Integer, String> data :bank.entrySet()){
+            System.out.println(data.getKey() + " " + data.getValue());
+        }
+
+        bank.put(3, "three");
+        //removed value
+        System.out.println(bank.remove(1));
+
+
+//Set [no order] and TreeSet  [asending order]
+add
+remove
+
+
+//Stack
+stackBank.push("four");
+while(!stackBank.isEmpty()){
+  System.out.println(stackBank.peek());
+  System.out.println(stackBank.pop());
+}
+
+
+//PriorityQueue and Queue
+Queue<String> queueBank = new LinkedList<String>();
+Queue<String> nameList_1 = new PriorityQueue<String>(comparator);
+
+while(!nameList.isEmpty()){
+  System.out.println(nameList.size());
+  System.out.println(nameList.peek());
+  System.out.println(nameList.poll());
+}
+
+

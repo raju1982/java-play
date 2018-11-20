@@ -1,0 +1,24 @@
+search engine store results in hash -
+
+hash Table has an array of linked list.
+each array element is a linked list containing search result of a single topic.
+array index is decided using hashing algorithm. [key%arrayl.length]
+each element has key, data and next element pointer.
+key is unique to an element with in link list.
+
+hash -> key.hashCode() % INITIAL_SIZE;
+
+search -
+0(n)  = hash the element + 0(1) [array] + 0(n) [link list]
+
+add -
+0(n)  = hash the element + 0(1) [array] + 0(n) [link list]
+
+delete -
+0(n)  = hash the element + 0(1) [array] + 0(n) [link list]
+
+
+element -
+T data
+key -
+nextElement -

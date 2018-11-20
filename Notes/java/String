@@ -1,0 +1,34 @@
+String Questions -
+//covert to lowercase and remove white spaces
+char[] word1 = firstWord.trim().toLowerCase().replaceAll("[\\s]", "").toCharArray();
+
+26 character in alphabet
+
+"rakesh".compareTo("kandpal");
+a.charAt(0)>b.charAt(0)?"YES":"NO";
+StringBuilder - append, insert with offset
+StringBuffer - thread safe StringBuilder
+String R = new StringBuilder(A).reverse().toString();
+
+
+Questions -
+
+reverse - recursion or use StringBuilder (not thread safe)
+
+palindrome - same from both eend, traverse from both enad (length/2)
+
+anagram -
+int[] counts = new int[26]; // An array to hold the number of occurrences of each character
+for (int i = 0; i < aArr.length; i++){
+   counts[aArr[i]-97]++;  // Increment the count of the character at i
+   counts[bArr[i]-97]--;  // Decrement the count of the character at i
+}
+
+String -
+https://www.hackerrank.com/domains/java/java-strings [java-anagrams]
+http://javarevisited.blogspot.com/2015/06/2-ways-to-check-if-string-is-palindrome-java.html
+https://www.careercup.com/page?pid=replacing-multiple-string-occurences-from-a-text-interview-questions
+https://www.careercup.com/page?pid=string-manipulation-interview-questions
+http://practice.geeksforgeeks.org/topics/String/
+https://leetcode.com/problemset/all/?tagSlugs=string
+

@@ -1,0 +1,58 @@
+operation -
+THE OPERATIONS ON A QUEUE ARE PERFORMED AT TWO ENDS, REMOVAL IS AT THE BEGINNING AND ADDITION IS AT THE END OF THE QUEUE
+
+Implementation -
+
+# Array Implementation -
+public class Queue<T> {
+
+    private static final int SPECIAL_EMPTY_VALUE = -1;
+    private static int MAX_SIZE = 40;
+    private T[] elements;
+
+    // The head index is initialized to a special value which
+    // indicate that the queue is empty.
+    private int headIndex = SPECIAL_EMPTY_VALUE;
+    private int tailIndex = SPECIAL_EMPTY_VALUE;
+
+
+# Time and Space COMPLEXITY
+ENQUEUING AND DEQUEUING IMPLEMENTED IN THIS WAY IS O(1), CONSTANT TIME COMPLEXITY
+IS EMPTY AND IS FULL IS ALSO O(1)
+SPACE COMPLEXITY IS O(N)
+
+
+Questions [using java.util.Queue] -
+add(E e)
+Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions, returning true upon success and throwing an IllegalStateException if no space is currently available.
+peek()
+Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.
+poll()
+Retrieves and removes the head of this queue, or returns null if this queue is empty.
+
+inherited from collection interface -
+boolean isEmpty()
+Returns true if this collection contains no elements.
+int size()
+Returns the number of elements in this collection. If this collection contains more than Integer.MAX_VALUE elements, returns Integer.MAX_VALUE.
+
+
+COMMON OPERATIONS ON QUEUE:
+public void enqueue(T data) throws QueueOverflowException {
+public T dequeue() throws QueueUnderflowException {
+public T peek() throws QueueUnderflowException {
+
+OTHER OPERATIONS WHICH ARE USEFUL:
+ISEMPTY
+ISFULL
+public boolean offer(T data) {
+
+
+# QUEUE
+# QUEUE USING 2 STACKS - PERFORMANCE AND COMPLEXITY -
+ALL ENQUEUES AND THEN ALL DEQUEUES ARE O(1) - IF ONLY ONE OF THESE OPERATIONS ARE PERFORMED
+NOTICE THAT EACH ELEMENT IS PUSHED NO MORE THAN TWICE
+EACH ELEMENT IS POPPED NO MORE THAN TWICE
+TIME COMPLEXITY IS O(M) WHERE M IS THE NUMBER OF OPERATIONS WE PERFORM ON THE QUEUE
+
+

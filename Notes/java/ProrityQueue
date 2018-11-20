@@ -1,0 +1,23 @@
+Questions [using java.util.Queue] -
+
+
+COMMON OPERATIONS ON QUEUE:
+Questions [using java.util.Queue] -
+add(E e)
+Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions, returning true upon success and throwing an IllegalStateException if no space is currently available.
+peek()
+Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.
+poll()
+Retrieves and removes the head of this queue, or returns null if this queue is empty.
+
+inherited from collection interface -
+boolean isEmpty()
+Returns true if this collection contains no elements.
+int size()
+Returns the number of elements in this collection. If this collection contains more than Integer.MAX_VALUE elements, returns Integer.MAX_VALUE.
+
+
+#elements are sorted
+#elments need to have implemented comparable interface.
+#while declaring priority queue we can add comparator for sorting.
+

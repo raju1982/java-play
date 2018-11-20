@@ -1,0 +1,56 @@
+enumeration - climb stair problem, how many different ways we can climb stairs
+
+**Fibonacci Numbers
+0,1,1,2,3,5,8,13 [element at nth location] [0 is at 0th position]
+
+**There are n stairs, a person standing at the bottom wants to reach the top. The person can climb either 1 stair or 2 stairs at a time. Count the number of ways, the person can reach the top.
+solution of this puzzel and Fibonacci is same
+
+
+*** Given a rod of length n inches and an array of prices that contains prices of all pieces of size smaller than n.
+Determine the maximum value obtainable by cutting up the rod and selling the pieces
+
+minimization/maximization - stock sold on same or different rate, calculate maximum profit
+yes/no question - can you form x pennies and z quaters.
+
+
+
+
+    //Given an array, find the contiguous subarray with the largest sum.
+    //Runtime Complexity
+    //Linear, O(n).
+    //Memory Complexity
+    //Constant, O(1).
+
+
+
+    //Find an efficient algorithm to find maximum sum of a subsequence in an array such that no consecutive elements are part of this subsequence.
+    //Runtime Complexity
+    //Linear, O(n).
+    //Memory Complexity
+    //Linear, O(n)
+
+
+
+    //Imagine a game (like baseball) where a player can score 1, 2 or 4 runs. Given a score "n", find the total number of ways score "n" can be reached.
+    //Runtime Complexity
+    //Linear, O(n).
+    //Memory Complexity
+    //Linear, O(n).
+
+
+
+    //Given coin denominations and the total amount, find out the number​ of ways to make the change.
+    //we have coin denominations 1, 2 and 5 and the total amount is 7.
+    //Runtime Complexity
+    //O(m n) where m is number of denominations and n is amount.
+    //Memory Complexity
+    //Linear, O(n) where n is the amount.
+
+
+   //minimum coin change
+
+
+
+
+   //Given two strings, compute the Levenshtein distance between them i.e. the minimum number of edits required to convert one string into the other.

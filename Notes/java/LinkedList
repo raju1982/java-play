@@ -1,0 +1,73 @@
+Linked List -
+THE WAY TO ACCESS LINKED LIST IS VIA THE VERY FIRST ELEMENT IN THE LIST CALLED THE “HEAD”
+EACH ELEMENT REFERENCES TO THE NEXT ELEMENT IN THE CHAIN - THE LAST ELEMENT POINTS TO NULL
+
+
+USE LINKED LISTS WHEN -
+YOU HAVE A LARGE NUMBER OF INSERT OR DELETE OPERATIONS TO PERFORM.
+YOU HAVE NO IDEA HOW LARGE YOUR LIST MIGHT BE.
+
+
+Implementation -
+public class LinkedList<T extends Comparable<T>> implements Cloneable {
+ private Node<T> head = null;
+ public LinkedList() {
+ }
+}
+
+
+Complexity -
+ADDING A NEW ELEMENT TO THE END OF A LIST           O(N)
+ADDING A NEW ELEMENT TO THE BEGINNING OF A LIST     O(1)
+FIND AN ELEMENT IN A LINKED LIST                    O(N)
+DELETING THE FIRST ELEMENT IN A LINKED LIST         O(1)
+DELETING A RANDOM ELEMENT IN A LINKED LIST          O(N)
+
+
+Node -
+THIS INFORMATION DATA + NEXT REFERENCE CAN BE CONSIDERED TO BE A SINGLE NODE
+THIS NODE IS IMPLEMENTED AS A CLASS IN JAVA - A GENERIC CLASS IS PREFERRED SO IT CAN HOLD DATA OF ANY TYPE
+THE DATA SHOULD BE COMPARABLE - THIS IS FOR EQUALITY CHECKS SO YOU CAN DO THINGS LIKE FIND WHAT INDEX A PARTICULAR ELEMENT IS LOCATED AT IN A LIST
+
+public class Node<T extends Comparable<T>> {
+ private T data;
+ private Node<T> next;
+
+ public Node(T data) {
+  this.data = data;
+  setNext(null);
+  }
+
+
+Doubly link list -
+  public class NodeD {
+  	Object value;
+  	NodeD next;
+  	NodeD previous;
+
+
+  public class LinkedListD<T> {
+  	NodeD head;
+  	public LinkedListD() {
+  	 head= null;
+  }
+
+
+Array v/s link list -
+access -
+Array - 0(1)
+Link list- 0(n)
+
+Memory -
+array consume less memory,
+array size is fixed while declaring array, it will consume that much memory even if it has less element.
+
+LinkList require more memory (data , plus pointer to next node).
+but it uses memory efficiently , size is not fixed in while declaring array.
+
+delete / add -
+Linklist is better.
+
+
+
+

@@ -1,0 +1,33 @@
+Binary Search [Recursive] -
+
+Runtime Complexity
+Logarithmic, O(logn).
+
+Memory Complexity
+Logarithmic, O(logn).
+Recursive solution has O(logn) memory complexity as it will consume memory on the stack.
+
+
+Binary Search [Iterative] -
+
+Runtime Complexity
+Logarithmic, O(logn).
+
+Memory Complexity
+Constant, O(1).
+
+Iterative solution has same O(logn) runtime complexity as the recursive solution but has better memory complexity.
+
+mid = min + ((max-min)/2);
+
+
+interpolationSearch is modified version of Binary Search , it;s good if data set is evenly distributed, its not skewed,
+
+mid = min + ((max - min)/(data[max] - data[min]))*(input-data[min]);
+
+
+QuickSelect - kth smallest/largest element.
+
+heap - top 5 element or 5 smallest element
+
+

@@ -1,0 +1,55 @@
+operation -
+    public void push(T data) throws StackOverflowException
+    public T pop() throws StackUnderflowException
+    public T peek() throws StackUnderflowException
+    isempty
+    isfull
+
+Implementation -
+     private static int MAX_SIZE = 40;
+     private Element<T> top; (pop/peek)
+     private int size = 0;
+
+     public static class Element<T> {
+            private T data;
+            private Element next;
+
+    #data us added on top, pointer is always toward down.
+
+time and space complexity -
+    PUSH AND POP FROM A STACK IMPLEMENTED IN THIS WAY IS O(1), CONSTANT TIME COMPLEXITY
+    IS EMPTY AND IS FULL IS ALSO O(1)
+    THE USE OF THE “SIZE” VARIABLE MAKES GETTING THE SIZE OF THE STACK ALSO O(1)
+
+    SPACE COMPLEXITY IS O(N)
+
+
+Questions [using java.util.Stack] -
+
+    decimalToHexaDecimalConverter
+
+    decimalToBinaryConverter
+
+    reverse string using stack
+
+    Questions :- Match-Parenthesis  //“{{{{}}})"  "{(["   "}])"
+
+    FIND THE MINIMUM ELEMENT IN A STACK IN CONSTANT TIME
+
+    HOLDING THE MEMORY FOR RECURSIVE CALLS IN A PROGRAMMING LANGUAGE
+
+    STACKS CAN BE USED FOR UNDO FUNCTIONALITY IN APPLICATIONS.
+
+    STACKS CAN BE USED FOR BACK FUNCTIONALITY IN BROWSERS
+
+
+ #tricky
+ public void push(T data) throws StackOverflowException {
+         if (size == MAX_SIZE) {
+             throw new StackOverflowException();
+         }
+
+         Element elem = new Element(data, top);
+         top = elem;
+         size++;
+     }

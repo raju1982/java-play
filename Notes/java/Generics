@@ -1,0 +1,97 @@
+generics gives us stronger type checks at compile time. A Java compiler applies strong type checking to generic code and issues errors if the code violates type safety.
+It adds compile time type safety "to the collections framework and eliminates "the drudgery of casting."
+It's important to note that generic types must be reference types. In other words, they cannot be primitive data types, such as int, double, char, et cetera.
+
+Generics are used by specifying parameterized types. These types are replaced by the compiler with concrete types at runtime.
+you might have a parameterized type of type T. You would replace that at runtime with maybe the type integer or double or string. The compiler then checks them at compile time.
+
+============================================================
+
+A generic type can be specified as a subtype, and if it is, then it's actually called a bounded type.
+generic type can extend superclass or interface using 'extends' keyword.
+generic types are allowed only Object methods, however bounded type can call extending superclass or interface interface.
+generic type can extend multiple superclass or interface
+
+public static <T extends Comparable<T>> int countGreaterThan(T[] list, T elem)
+    {
+        int count = 0;
+        for(T element:list)
+        {
+            if(element.compareTo(elem) > 0)
+                count++;
+        }
+        return count;
+    }
+
+public <T extends Number> void print(T t) {}
+print(new Integer(20)); //OK
+print("text"); //error
+
+public <T extends Integer & Double> void ..
+
+============================================================
+
+generic class, interface and method syntax ->
+
+public interface Pair <K,V>{
+    public K getKey();
+    public V getValue();
+}
+
+public class OrderedPair<K,V> implements Pair<K,V> {
+    private final K key;
+    private final V value;
+
+    public OrderedPair(K key, V value) {
+        this.key = key;
+        this.value = value;
+    }
+    public K getKey() {return key;}
+    public V getValue() {return value;}
+}
+
+
+public class SyntaxExample {
+    public static void main(String[] args)
+    {
+//        ArrayList a = new ArrayList();
+//        a.add(15);
+//        a.add("15");
+//        Integer b = (Integer)a.get(1);
+        ArrayList<Integer> a = new ArrayList<>();
+        a.add(15);
+        //a.add("15");
+        Integer b = a.get(0);
+        Pair<Integer, String> p1 = new OrderedPair<>(1,"apple");
+        Pair<String, Integer> p2 = new OrderedPair<>("banana",2);
+        print(p1.getKey(),p1.getValue());
+        print(p2.getKey(),p2.getValue());
+        print("Happy", "Birthday");
+
+    }
+    public static <K,V> void print(K key, V value)
+    {
+        System.out.println("key: "+key);
+        System.out.println("value: "+ value);
+    }
+
+}
+
+
+======================================
+
+public class Person<E> {
+    public E e;
+    public void setPerson(E e)
+    {
+        this.e = e;
+    }
+    public E getPerson()
+    {
+        return e;
+    }
+}
+
+
+
+https://www.lynda.com/Java-tutorials/Syntax-examples/534634/597386-4.html

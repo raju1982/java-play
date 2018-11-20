@@ -1,0 +1,4 @@
+@Test(expectedExceptions = IllegalArgumentException.class, expectedExceptionsMessageRegExp = "invalid input data")
+    public void nullValueTest(){
+        middleThreeLetter(null);
+    }

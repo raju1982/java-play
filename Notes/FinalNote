@@ -1,0 +1,68 @@
+# +/- of each datastructure
+# java implementation
+# tricks for each datastructure problem
+
+
+
+LinkedList -
+
+
+Arraylist-
+ArrayList is implementation using dynamic array  [insert data once and read it] [read data a lot]
+
+
+Stack -
+Implementation -
+LastInFirstOut
+tail, size
+stackoverflowexception -> push
+stackunderflowexception -> peek,popcir
+
+
+Java util package -
+Stack Class is implemented using dynamic array.
+//Stack
+stackBank.push("four");
+while(!stackBank.isEmpty()){
+  System.out.println(stackBank.peek());
+  System.out.println(stackBank.pop());
+}
+
+
+Queue
+
+
+Binary tree
+
+
+
+Heap
+
+
+Array
+
+
+
+String
+
+
+
+
+
+
+# search
+
+
+# sort
+
+
+#dynamic programing
+no. of eggs -> 2 dimensional matrix , start from 1 to no. of eggs keep eggs constant.
+
+
+
+todo -
+linklist implementation
+circular link list  [confirm it is a circular and remove that point]
+stack implementation
+

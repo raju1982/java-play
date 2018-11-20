@@ -1,0 +1,50 @@
+EACH NODE IN THE LEFT SUB-TREE OF THAT NODE HAS A VALUE LESS THAN OR EQUAL TO THE VALUE OF THE NODE
+EACH NODE IN THE RIGHT SUB-TREE OF THAT NODE HAS A VALUE GREATER THAN THE VALUE OF THE NODE
+
+BINARY SEARCH TREES ARE TYPICALLY USED FOR FAST INSERTION AND FAST LOOKUP
+
+INSERTION
+IN A TREE WHEN A NEW NODE IS ADDED THERE IS EXACTLY ONE PLACE THAT IT CAN BE
+THE STRUCTURE OF A TREE DEPENDS ON THE ORDER IN WHICH THE NODES ARE ADDED
+
+LOOKUP
+WHILE SEARCHING FOR A NODE IN THE TREE THERE IS ONLY ONE PLACE WHERE THAT NODE CAN BE FOUND
+WE CAN SIMPLY FOLLOW THE RIGHT OR LEFT SUB-TREES BASED ON THE VALUE WE WANT TO FIND
+
+
+//insertion and lookup code implementation.
+
+Question -
+FIND THE MINIMUM VALUE IN A BINARY SEARCH TREE
+MAXIMUM DEPTH OF A BINARY TREE
+MIRROR A BINARY TREE - EVERY LEFT CHILD IS NOW A RIGHT CHILD AND VICE VERSA
+COUNT TREES - CONSIDER THAT EVERY NODE CAN BE THE ROOT - THE NODES BEFORE IT WILL BE ON THE LEFT AND THE NODES AFTER IT ON THE RIGHT
+PRINT NODES WITHIN A RANGE
+CHECK IF A BINARY TREE IS A BINARY *SEARCH* TREE
+
+
+Search/insert/delete - 0(logn) [balanced tree]
+
+balanced tree = no. of node on right is equal to no. of nde on left.
+
+
+
+
+
+red-black tree (read black is a binary search tree) ->
+new node should be red.
+red node has two black child node.
+root node is always black.
+nil node is black.
+every path from node x down a leaf node has same number of black node.
+
+new node parent is red + uncle node is red -
+swap color of parent node and child node. (child node becomes black and parent node becomes red.)
+
+new node parent is red + uncle node is black  && (new node is right child of left or new node is left child of right) -
+swap new node and it's parent.
+
+new node parent is red + uncle node is black  && (new node is right child of right or new node is left child of left) -
+we swap parent and grand-parent. we also swap color of parent and grand-parent
+
+top node color can be changed from red to black.
